@@ -1,3 +1,5 @@
+const { Order } = require("../entities/Order");
+
 class PlaceOrder {
   constructor(orderRepository, productRepository, paymentService, idGenerator) {
     this.orderRepository = orderRepository;
@@ -45,3 +47,5 @@ class PlaceOrder {
     return products;
   }
 }
+
+module.exports = { PlaceOrder };

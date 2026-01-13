@@ -1,3 +1,5 @@
+const { UserRepository } = require("../../domain/ports/UserRepository");
+
 class InMemoryUserRepository extends UserRepository {
   constructor() {
     super();
@@ -24,3 +26,5 @@ class InMemoryUserRepository extends UserRepository {
     return this.users.delete(id);
   }
 }
+
+module.exports = { InMemoryUserRepository };

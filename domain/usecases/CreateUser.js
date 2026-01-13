@@ -1,3 +1,5 @@
+const { User } = require("../entities/User");
+
 class CreateUser {
   constructor(userRepository, idGenerator) {
     this.userRepository = userRepository;
@@ -15,3 +17,5 @@ class CreateUser {
     return user;
   }
 }
+
+module.exports = { CreateUser };

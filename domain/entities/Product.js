@@ -15,3 +15,5 @@ class Product {
     this.price = this.price * (1 - percentage / 100);
   }
 }
+
+module.exports = { Product };

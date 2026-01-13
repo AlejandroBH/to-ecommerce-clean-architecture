@@ -11,3 +11,5 @@ class GetUser {
     return user;
   }
 }
+
+module.exports = { GetUser };

@@ -1,3 +1,5 @@
+const { IdGenerator } = require("../../domain/ports/IdGenerator");
+
 class UUIDGenerator extends IdGenerator {
   generate() {
     return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(
@@ -10,3 +12,5 @@ class UUIDGenerator extends IdGenerator {
     );
   }
 }
+
+module.exports = { UUIDGenerator };

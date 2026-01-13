@@ -4,7 +4,7 @@
   "description": "",
   "main": "container.js",
   "scripts": {
-    "start": "npm container.js"
+    "start": "node container.js"
   },
   "keywords": [],
   "author": "Alejandro Barrera <alejandro91dark@hotmail.es>",

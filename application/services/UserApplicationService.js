@@ -45,3 +45,5 @@ class UserApplicationService {
     }
   }
 }
+
+module.exports = { UserApplicationService };

@@ -1,5 +1,7 @@
 class IdGenerator {
   generate() {
-    throw new Error("Implement in adapter");
+    throw new Error("Implementar en adaptador");
   }
 }
+
+module.exports = { IdGenerator };
