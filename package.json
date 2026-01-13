@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "container.js",
+  "scripts": {
+    "start": "npm container.js"
+  },
+  "keywords": [],
+  "author": "Alejandro Barrera <alejandro91dark@hotmail.es>",
+  "license": "ISC",
+  "type": "commonjs"
+}
